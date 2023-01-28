@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Practice 2</title>
+  </head>
+  <body>
+    <form action="#" method="post" enctype="multipart/form-data">
+      <div>
+        <p>Имя</p>
+        <input
+          tabinex="1"
+          type="text"
+          name="username"
+          placeholder="Введите имя"
+        />
+        <p>Пароль</p>
+        <input
+          tabinex="2"
+          type="password"
+          name="password"
+          placeholder="Введите пароль"
+        />
+        <p>Телефон</p>
+        <input
+          tabinex="3"
+          type="tel"
+          name="telephone"
+          placeholder="Введите телефон"
+        />
+      </div>
+
+      <div>
+        <p>Пол</p>
+        <div>
+          <input tabinex="4" checked type="radio" name="sex" value="man" />
+          Мужской
+        </div>
+        <div>
+          <input tabinex="4" type="radio" name="sex" value="woman" /> Женский
+        </div>
+      </div>
+
+      <div>
+        <p>Имущество</p>
+        <div>
+          <input tabinex="5" checked type="checkbox" name="bike" value="yes" />
+          Велик
+        </div>
+        <div>
+          <input tabinex="6" type="checkbox" name="car" value="yes" /> Машина
+        </div>
+        <div>
+          <input
+            disabled
+            tabinex="7"
+            type="checkbox"
+            name="house"
+            value="yes"
+          />
+          Квартира
+        </div>
+      </div>
+      <div>
+        <p>Дополонительная информация</p>
+        <textarea tabinex="8" name="info"></textarea>
+      </div>
+      <div>
+        <p>Прикрепить фото</p>
+        <input tabinex="9" type="file" name="photo" />
+      </div>
+    </form>
+
+    <div>
+      <p>Любой цвет</p>
+      <select tabinex="10" name="colors">
+        <option value="yellow">Жёлтый</option>
+        <option value="black">Чёрный</option>
+        <option selected value="red">Красный</option>
+      </select>
+    </div>
+    <div>
+      <p>Действия</p>
+      <button tabinex="11" type="submit">Отправить</button>
+      <button tabinex="12" type="reset">Очистить</button>
+    </div>
+  </body>
+</html>
